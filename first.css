@@ -1,0 +1,206 @@
+ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 4px;
+    width: 60px;
+  }
+  
+  li a:hover {
+    background-color: #73AD21;
+    display: inline;
+    color: beige;
+  }
+  
+
+body{
+    background-color: rgb(169, 159, 159);
+}
+/*For fst class */
+.fst{
+color: blue;
+text-align: center;
+margin-left: 20px;
+background-color: black;
+border:3px solid greenyellow;
+font-style: italic;
+
+}
+.tnd,.p{
+    background-color: rgb(14, 14, 14);
+    color: rgb(7, 234, 7);
+    border: 10px solid rgb(255, 81, 0);
+    background-image:url(breakfast3.jpg) ;
+    text-align: center;
+    background-repeat: repeat-x;
+    background-position: right top;
+    border-style: double;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    height: 100px;
+    width: 400px;
+    
+    text-transform: lowercase;
+    letter-spacing: 3px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-style: italic;
+    font-size: 15px;
+
+}
+
+.trd,.h2{
+    color: aliceblue;
+    border: 2px solid;
+    margin-top:70px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+    margin-left: 140px;
+    background-color: blue;
+    margin: 10px 0px 50px 0;
+    outline-color:black ;
+    text-decoration: overline;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 2px 2px color( red);
+    font-family: "Sofia", sans-serif ;
+
+}
+.fth,a:hover{
+text-decoration: rgb(201, 165, 0);
+text-decoration: underline;
+
+}
+.fiveth,ol{
+   
+    background: indigo;
+    padding: 10px;
+    
+
+}
+ul,li{
+    background: darkcyan;
+    margin: 4px;
+}  
+
+table, th, td {
+    border: 1px solid;
+  }
+  
+  table {
+    width: 100%;
+  }
+  li {
+    display: inline;
+  }
+  .static {
+    position: static;
+    border: 3px solid #73AD21;
+  }
+  .black-box {
+    position: relative;
+    border: 2px solid black;
+    height: 100px;
+    margin: 30px;
+  }
+  
+  .gray-box {
+    position: absolute;
+    background: rgb(162, 6, 6);
+    height: 60px;  
+    width: 70%;
+    left: 50px;
+    top: 50px;
+  }
+  
+  .green-box {
+    position: absolute;
+    background: rgb(81, 37, 20);
+    width: 35%;
+    left: 270px;
+    top: -15px;
+    height: 100px;
+  }
+  .oversc{
+    background-color: coral;
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  overflow: scroll;
+  }
+  img {
+    float: right;
+    clear: right;
+  }
+  span.a {
+    display: inline; /* the default for span */
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;  
+    background-color: yellow; 
+  }
+  
+  span.b {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;    
+    background-color: yellow; 
+  }
+  
+  span.c {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;    
+    background-color: yellow; 
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  div > p {
+    background-color: rgb(183, 103, 83);
+  }
+.mm,a{
+      a:link {
+        color: #504141;
+      }
+      a:hover {
+        color: hotpink;
+      }
+
+  }
+  img {
+    opacity: 0.5;
+  }
+  
+  img:hover {
+    opacity: 1.0;
+  }
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  a[target] {
+    background-color: yellow;
+  }
